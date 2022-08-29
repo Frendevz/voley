@@ -1,7 +1,7 @@
 import { genId } from '../../Util';
 
 export default class Player {
-  public readonly id = genId();
+  public id = '';
   public distance = 0;
   constructor(public name: string) {}
 }
